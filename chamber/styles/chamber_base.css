@@ -1,0 +1,165 @@
+:root {
+    --primary-color: #212e3e;
+    --secondary-color: #FCD116;
+    --third-color: #7B3F00;
+    --background-color: #f4f4f4;
+    --dark-color: #001489;
+    --light-color: #009EED;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --red-color: #d63049;
+
+    --second-background: #e8edf3;
+    --nav-current: var(--primary-color);
+    --dialog-back: rgb(0 0 0/50%);
+
+
+    --title-font: "Poppins", sans-serif;
+    --body-font: "Arimo", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--body-font);
+}
+
+h1,
+h2,
+h3,
+.title-header,
+.navigation a {
+    font-family: var(--title-font);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px 50px;
+    grid-template-rows: 80px auto;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    overflow: hidden;
+}
+
+.title-header {
+    font-size: 1.4rem;
+    padding-left: 1rem;
+}
+
+.nav-nav {
+    grid-column: 1/-1;
+    width: 100%;
+}
+
+header>* {
+    margin: auto 0;
+}
+
+body {
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.logo {
+    width: 100%;
+}
+
+h1 {
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 300;
+    font-size: 3rem;
+}
+
+
+/* -------------- */
+/*  footer        */
+/* -------------- */
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1rem;
+    place-items: center;
+}
+
+footer h2 {
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+.social-media ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media li {
+    margin: 10px;
+}
+
+.social-media img {
+    width: 50px;
+    height: auto;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+/* 
+Random thing to use in the files
+*/
+
+.dark-light {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--secondary-color);
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.dark-light::before {
+    content: "";
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--primary-color);
+    top: 0;
+    left: 0;
+    transform: translateX(44px);
+    transition: transform 0.4s ease;
+}
+
+.dark-light::after {
+    content: "";
+    position: absolute;
+    inset: -6px;
+    border-radius: 50%;
+    border: 2px dashed var(--secondary-color);
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.dark-light:hover::before {
+    transform: translateX(12px);
+}
+
+.dark-light:hover::after {
+    opacity: 0;
+}
+
+.dark-light:hover {
+    transform: rotate(20deg);
+}

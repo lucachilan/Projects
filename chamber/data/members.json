@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Churrascaria Italiana",
+            "address": "R. Hónorato Chaves, 695",
+            "phone": "+555532432344",
+            "website_url": "https://www.facebook.com/churrascariaitaliana",
+            "image_src": "https://lh3.googleusercontent.com/p/AF1QipMAxfP5r5lxuyRwD1MGXUVTqKHmXfwim4rISOf7=w203-h114-k-no",
+            "membership_level": "gold",
+            "information": "Brazilian Barbecue"
+        },
+        {
+            "name": "Yury’s Free Shop",
+            "address": "Agraciada 514",
+            "phone": "+59894553222",
+            "website_url": "https://www.yurysfreeshop.com/",
+            "image_src": "https://static.wixstatic.com/media/2d75da_9878c96857394a23a64910197954dce8~mv2.png/v1/fill/w_554,h_186,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logo%20Yury%202024.png",
+            "membership_level": "gold",
+            "information": "Duty Free store"
+        },
+        {
+            "name": "Indian Rivera",
+            "address": "Av. Sarandí 438",
+            "phone": "+598 24009236",
+            "website_url": "https://www.indian.com.uy/",
+            "image_src": "https://f.fcdn.app/assets/commerce/www.indian.com.uy/11d6_3bb6/public/web/img/logo.svg",
+            "membership_level": "member",
+            "information": "Dressing store"
+        },
+        {
+            "name": "Ta-Ta",
+            "address": "Av. Sarandí 950",
+            "phone": "+598 46237405",
+            "website_url": "https://www.tata.com.uy/",
+            "image_src": "https://www.tata.com.uy/logoMobile.svg",
+            "membership_level": "gold",
+            "information": "Supermarket"
+        },
+        {
+            "name": "Heladeria Fragola",
+            "address": "Av. Sarandí 850",
+            "phone": "+598 91629990",
+            "website_url": "https://www.instagram.com/fragola.sarandi/?hl=es#",
+            "image_src": "https://scontent.fmvd4-1.fna.fbcdn.net/v/t1.6435-9/82027322_104157521126368_2591817114490765312_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=53a332&_nc_ohc=orIS8XWzWEIQ7kNvwEKGgYX&_nc_oc=AdlhSu5PwUz0VkRa_P32Gy-wd7VQ3MwmHB41OZQJEi3ggpdjePYT4f2VCcu_Rn8JZFA&_nc_zt=23&_nc_ht=scontent.fmvd4-1.fna&_nc_gid=_NsAuEYV8PpDlpvmPU01jQ&_nc_ss=8&oh=00_Afz8h7QNkg59h6qSKG9ewRAOFZpEGtqzFkKADEFKDCfSfA&oe=69D998B0",
+            "membership_level": "silver",
+            "information": "Ice Cream store"
+        },
+        {
+            "name": "M.c Queen's",
+            "address": "Av. Sarandí 708",
+            "phone": "+598 93895191",
+            "website_url": "https://www.instagram.com/mcqueensrivera/",
+            "image_src": "https://lh3.googleusercontent.com/p/AF1QipOEOZkVmMMR7O4n0SHxC7bdlA8JeXzDdFFgzVWz=w203-h253-k-no",
+            "membership_level": "member",
+            "information": "Fast food restaurant"
+        },
+        {
+            "name": "Frontier Hotel Rivera",
+            "address": "Ituzaingó 337",
+            "phone": "46240476",
+            "website_url": "http://www.frontierhotelrivera.com/",
+            "image_src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo1ZM1PWqaLify15KLoWmxxcpaPQ7XINbXIw&s",
+            "membership_level": "member",
+            "information": "Hotel"
+        }
+    ]
+}
